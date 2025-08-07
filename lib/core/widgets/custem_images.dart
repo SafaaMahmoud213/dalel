@@ -20,20 +20,10 @@ class CustomImages extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (url.startsWith("https")) {
-      return Image.network(
-        url,
-
-        width: width?.w,
-        height: height?.h,
-        fit: fit,
-        errorBuilder:
-            (context, error, stackTrace) =>
-                Image.asset("assets/images/error.png", width: 20, height: 20),
-      );
-    } else if (url.endsWith("svg")) {
+    if (url.endsWith("svg")) {
       return SvgPicture.asset(
         "assets/icons/$url",
+
         width: width?.w,
         color: color,
         height: height?.h,
