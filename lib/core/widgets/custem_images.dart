@@ -1,4 +1,3 @@
-import 'package:dalel/core/constant/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
@@ -24,7 +23,7 @@ class CustomImages extends StatelessWidget {
     if (url.startsWith("https")) {
       return Image.network(
         url,
-        color: color ?? AppColors.primaryColor,
+
         width: width?.w,
         height: height?.h,
         fit: fit,

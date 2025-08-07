@@ -44,7 +44,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images
+    - assets/images/
+    - assets/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -60,18 +61,18 @@ flutter:
   fonts:
     - family: Pacifico
       fonts:
-        - asset: fonts/Pacifico.ttf
+        - asset: assets/fonts/Pacifico.ttf
     - family: Poppins
       fonts:
-        - asset: fonts/Poppins_Thin.ttf
-        - asset: fonts/Poppins_ExtraLight.ttf
-        - asset: fonts/Poppins_Light.ttf
-        - asset: fonts/Poppins_Regular.ttf
-        - asset: fonts/Poppins_Medium.ttf
-        - asset: fonts/Poppins_SemiBold.ttf
-        - asset: fonts/Poppins_Bold.ttf
-        - asset: fonts/Poppins_ExtraBold.ttf
-        - asset: fonts/Poppins_Black.ttf
+        - asset: assets/fonts/Poppins-Thin.ttf
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+        - asset: assets/fonts/Poppins-Light.ttf
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+        - asset: assets/fonts/Poppins-Black.ttf
 
   #
   # For details regarding fonts from package dependencies,
