@@ -9,6 +9,12 @@ class CustomTextStyles {
     fontFamily: "Pacifico",
     fontWeight: FontWeight.w400,
   );
+  static final TextStyle text12pacifi400 = TextStyle(
+    fontSize: 12.sp,
+    color: AppColors.secColor,
+    fontFamily: "Poppins",
+    fontWeight: FontWeight.w400,
+  );
 
   static final TextStyle text24popp500Black = TextStyle(
     fontSize: 24.sp,
